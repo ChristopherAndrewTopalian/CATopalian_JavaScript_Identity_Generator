@@ -1,7 +1,9 @@
 # CATopalian JavaScript Identity Generator
 A JavaScript application that generates a random first name, last name and address.  
 
-USE APP: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Identity_Generator/CATopalian_JavaScript_Identity_Generator.html
+USE APP: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Identity_Generator/CATopalian_JavaScript_Identity_Generator.html  
+
+![screenshot_001](src/media/textures/screenshots/001.JPG)  
 
 If you enjoy my apps and tutorials please consider buying me a coffee at [paypal.me/keystonermarch](https://www.paypal.com/paypalme/keystonermarch)  
 
