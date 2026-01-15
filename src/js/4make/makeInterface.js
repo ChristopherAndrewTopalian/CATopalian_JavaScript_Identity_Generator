@@ -8,6 +8,10 @@ function makeInterface()
 
     //-//
 
+    mainDiv.append(makeTitleOfApp());
+
+    //-//
+
     let hrTop = ce('hr');
     mainDiv.append(hrTop);
 
@@ -110,7 +114,18 @@ function makeInterface()
     {
         audioPlay('sfx_blip_001', 1.0);
     };
+    fileInputButton.style.display = 'none';
     mainDiv.append(fileInputButton);
+
+    //-//
+
+    let fileBtn = ce('button');
+    fileBtn.textContent = 'Open';
+    fileBtn.onclick = function()
+    {
+        fileInputButton.click();
+    };
+    mainDiv.append(fileBtn);
 
     //-//
 
@@ -150,7 +165,7 @@ function makeInterface()
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting
